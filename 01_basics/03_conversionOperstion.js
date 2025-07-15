@@ -25,3 +25,32 @@ let someNumber = 33
 let stringNumber = string(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+// ******** Operations ************//
+
+let value = 3
+let negValue = -value
+//console.log();
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Astha"
+let str3 = str1 + str2 // In this concasation
+console.log(str3); // output hello Astha
+
+console.log ("1" + 2); // output 12
+console.log(1+"2"); // output
+console.log("1" + 2 + 2) // output : 122
+console.log(1 + 2 + "2") // output : 32
+
+console.log(+true) // output : 1
+console.log(+""); // output : 0
+
+let num1 , num2 , num3
