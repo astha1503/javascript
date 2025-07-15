@@ -54,3 +54,7 @@ console.log(+true) // output : 1
 console.log(+""); // output : 0
 
 let num1 , num2 , num3
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion 
+//  you can also refrace mdn
