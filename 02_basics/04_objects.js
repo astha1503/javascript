@@ -64,3 +64,39 @@ console.log(Object.entries(tinderUser)); // it will make keys and value into a a
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn')) // check if this properlty exits or not // output: true
 
+
+
+const course = {
+    coursename: "JS in Hindi" , 
+    price: "999" ,
+    courseInstructor: "hitesh"
+}
+
+// couese.courseInsertrutor
+// const {courseInstructor} = course
+// console.log(courseInstructor);
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+// const navbar = ({company}) => {
+
+// } // this destructure of class using {}
+
+
+
+//API
+// when we call the API than its call a json file came
+// Object form
+// {
+//     "Login": "AsthaKumari"
+//     "Name" : "AsthaBhardwaj"
+// }
+
+// it also call in array formed and also in which it's store in object form
+// [
+//     {},
+//     {},
+//     {}
+// ]
+
+// to understand the api they is a  tool `json Formatter`
