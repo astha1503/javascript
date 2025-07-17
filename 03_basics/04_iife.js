@@ -18,3 +18,14 @@
     console.log(`DB CONNECTED TWO ${name}`)
 })("Astha") 
 // DB CONNECTED TWO Astha 
+
+
+
+///////////////////////////////////
+ // Execution Phase 
+ //1. Global Execation (=> this)
+ // 2. Memory Phase 
+ // 3. Execution Phase 
+ // for function same thing happen and value return to the gobal Execation
+
+ //  
